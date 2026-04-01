@@ -1,4 +1,3 @@
-
 local Texts = {
     English = {
         -- Tabs
@@ -416,13 +415,9 @@ local function NotificacaoNightMystic(titulo, mensagem, duration)
     end)
 end
 
-NotificacaoNightMystic("owneranhyeuem", "Script loaded successfully", 5)
-NotificacaoNightMystic("", "")
+NotificacaoNightMystic("GumDam", "Load Script Success")
+NotificacaoNightMystic("GumDam", "Do you know")
 
-
--- ========================================
--- SAVE SYSTEM (Optimized)
--- ========================================
 local HttpService = Services.HttpService
 local FolderName = "owneranhyeuem"
 local FileName = "Settings.json"
@@ -2711,9 +2706,9 @@ QuestNeta = function()
 		};
 	end;
 	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/owneranhyeuem/owneranhyeuem/refs/heads/main/owneranhyeuemGUI"))():MakeWindow({
-    Title = "Owner anhyeuem",
-    SubTitle = "",
-    SaveFolder = ""
+    Title = "Owneranhyeuem",
+    SubTitle = "GumDam",
+    SaveFolder = "Prem"
 })
 local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "ControlGUI"
