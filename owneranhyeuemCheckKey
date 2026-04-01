@@ -1,0 +1,10 @@
+local key = getgenv().Key
+
+local res = game:HttpGet("/checkkey?key=" .. key)
+local data = game:GetService("HttpService"):JSONDecode(res)
+
+if data.status == "valid" then
+    loadstring(game:HttpGet(""))()
+else
+    loadstring(game:HttpGet(""))()
+end
