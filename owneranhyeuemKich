@@ -1,2 +1,2 @@
 local player = game.Players.LocalPlayer
-player:Kick("") 
+player:Kick("I saw that Roblox has intervened with third-party software and they issued a permanent ban") 
